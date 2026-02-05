@@ -1783,16 +1783,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Un commentaire "
-		(exclude_from_sim no)
-		(at 83.82 112.776 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "e70f14ed-7a5f-4907-9113-21e2104deda6")
-	)
 	(junction
 		(at 62.23 100.33)
 		(diameter 0)
