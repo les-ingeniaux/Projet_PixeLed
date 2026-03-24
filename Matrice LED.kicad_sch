@@ -1790,6 +1790,18 @@
 		(uuid "0bbfeead-e31e-416a-b462-be3874fdab61")
 	)
 	(junction
+		(at 71.12 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ea31e22-b3b5-4336-8af4-22bf39beb5e8")
+	)
+	(junction
+		(at 52.07 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48ddd98d-2937-4ac0-8563-44509d55c1b4")
+	)
+	(junction
 		(at 74.93 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1802,6 +1814,30 @@
 		(uuid "806dcba1-18d3-4dda-8111-25915c2fd416")
 	)
 	(junction
+		(at 62.23 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95bcd353-5e9c-4308-b56d-6f524aa26fc5")
+	)
+	(junction
+		(at 41.91 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b05e781a-24b3-4bb3-98a2-7929736b2874")
+	)
+	(junction
+		(at 26.67 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b8843925-b49b-4113-b586-fd6cbbc6c852")
+	)
+	(junction
+		(at 44.45 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb34cbf4-9ccd-4d49-b04b-b95ac510278e")
+	)
+	(junction
 		(at 134.62 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1812,6 +1848,30 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e4632775-cba3-4d71-93f0-b8831af07e2f")
+	)
+	(no_connect
+		(at 69.85 73.66)
+		(uuid "0e45b783-8a02-4670-94af-a938e4697c29")
+	)
+	(no_connect
+		(at 69.85 76.2)
+		(uuid "2980c797-a8cb-4fc3-9242-83e14fb6ffea")
+	)
+	(no_connect
+		(at 52.07 76.2)
+		(uuid "341e7243-fca1-49f9-bdfc-6d4ee5fee02d")
+	)
+	(no_connect
+		(at 52.07 73.66)
+		(uuid "a566c57e-af81-4bc2-9bbf-75844e364010")
+	)
+	(no_connect
+		(at 34.29 77.47)
+		(uuid "af498ed4-39cd-435a-be3a-92c0cabe8056")
+	)
+	(no_connect
+		(at 34.29 74.93)
+		(uuid "b34682fd-cb0c-461e-900c-f7d084c71891")
 	)
 	(wire
 		(pts
@@ -1835,6 +1895,26 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 85.09) (xy 24.13 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07bd240c-fffb-4341-8497-1b713107e101")
+	)
+	(wire
+		(pts
+			(xy 44.45 90.17) (xy 62.23 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e8663c7-b1da-4883-adba-1fe3ab76c865")
+	)
+	(wire
+		(pts
 			(xy 134.62 48.26) (xy 134.62 53.34)
 		)
 		(stroke
@@ -1842,6 +1922,36 @@
 			(type default)
 		)
 		(uuid "18822c68-b1c6-40ee-84ef-7b84f250714b")
+	)
+	(wire
+		(pts
+			(xy 62.23 90.17) (xy 62.23 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d141e1e-10dc-4c79-a77c-a382faa9dbc3")
+	)
+	(wire
+		(pts
+			(xy 41.91 83.82) (xy 41.91 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29497a4f-0467-4f42-bb3a-8ca03de2fef3")
+	)
+	(wire
+		(pts
+			(xy 52.07 58.42) (xy 52.07 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44dbe341-ea70-45da-952f-556de0869162")
 	)
 	(wire
 		(pts
@@ -1855,7 +1965,17 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 83.82) (xy 62.23 100.33)
+			(xy 34.29 58.42) (xy 52.07 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cae70f0-a379-40de-8b34-d7dc10a2f868")
+	)
+	(wire
+		(pts
+			(xy 62.23 83.82) (xy 62.23 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1895,6 +2015,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 85.09) (xy 26.67 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fde7dd6-0866-4190-9c12-8acf4714d7cb")
+	)
+	(wire
+		(pts
 			(xy 59.69 130.81) (xy 62.23 130.81)
 		)
 		(stroke
@@ -1902,6 +2032,26 @@
 			(type default)
 		)
 		(uuid "7fe27518-5a76-41f0-81c0-42365e360e79")
+	)
+	(wire
+		(pts
+			(xy 52.07 58.42) (xy 71.12 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e25176a-dac4-4625-ab12-a5a4dcc92199")
+	)
+	(wire
+		(pts
+			(xy 41.91 90.17) (xy 44.45 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91dbdfa3-1389-45ba-b84b-50d89fdf0f0d")
 	)
 	(wire
 		(pts
@@ -1945,6 +2095,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 90.17) (xy 41.91 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b731d09e-e683-4b85-9a30-c2cd32b74d69")
+	)
+	(wire
+		(pts
 			(xy 74.93 48.26) (xy 134.62 48.26)
 		)
 		(stroke
@@ -1952,6 +2112,26 @@
 			(type default)
 		)
 		(uuid "bb635aa5-b98d-4905-9d3a-0c1d12a06f7a")
+	)
+	(wire
+		(pts
+			(xy 71.12 68.58) (xy 74.93 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1ef0da5-718b-4951-ae71-44e6ec278929")
+	)
+	(wire
+		(pts
+			(xy 24.13 90.17) (xy 26.67 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3220cba-5343-412f-a507-4e2d2af1ccb1")
 	)
 	(wire
 		(pts
@@ -1985,7 +2165,17 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 68.58) (xy 74.93 68.58)
+			(xy 71.12 58.42) (xy 71.12 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf751ed3-bc56-47c9-b2de-da5ce05ad47d")
+	)
+	(wire
+		(pts
+			(xy 69.85 68.58) (xy 71.12 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2005,6 +2195,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 90.17) (xy 44.45 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaa69bd0-76bc-4c6b-99b8-1ec805735e28")
+	)
+	(wire
+		(pts
 			(xy 76.2 88.9) (xy 81.28 88.9)
 		)
 		(stroke
@@ -2012,6 +2212,16 @@
 			(type default)
 		)
 		(uuid "f17fd4e0-9f1a-4ffa-9817-d5ccf37af4f9")
+	)
+	(wire
+		(pts
+			(xy 34.29 69.85) (xy 34.29 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd6e3965-192b-41bc-815b-895424348093")
 	)
 	(label "GP4"
 		(at 105.41 86.36 0)
@@ -2428,6 +2638,160 @@
 			(project ""
 				(path "/22181f45-5f3c-4a22-8df0-6f6efcd72a92"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:USB_B")
+		(at 44.45 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "862adc50-cbeb-44a6-be0b-dae71dfcae6a")
+		(property "Reference" "J3"
+			(at 44.45 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB_B"
+			(at 44.45 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB_B_Lumberg_2411_02_Horizontal"
+			(at 48.26 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB Type B connector"
+			(at 44.45 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f5073bf-ed31-4634-aec7-d7d3886c20f9")
+		)
+		(pin "4"
+			(uuid "79a847bd-4395-407e-9f18-9c0b9ac31ec5")
+		)
+		(pin "5"
+			(uuid "73d71cd3-2ca5-4e73-902f-f491259b726e")
+		)
+		(pin "3"
+			(uuid "d020c453-f339-42e7-8fa4-37f7019cf28c")
+		)
+		(pin "2"
+			(uuid "7e769fdb-5e2a-4383-8b1a-1484c618c1f0")
+		)
+		(instances
+			(project "Matrice LED"
+				(path "/22181f45-5f3c-4a22-8df0-6f6efcd72a92"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:USB_B")
+		(at 26.67 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9f8a373-a934-48c5-99c6-add4f68a6daf")
+		(property "Reference" "J4"
+			(at 26.67 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB_B"
+			(at 26.67 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB_B_Lumberg_2411_02_Horizontal"
+			(at 30.48 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB Type B connector"
+			(at 26.67 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42337bcf-ea81-4f74-8b82-76cd84486b47")
+		)
+		(pin "4"
+			(uuid "2b5d39c3-54ad-4a78-99a6-2be364511375")
+		)
+		(pin "5"
+			(uuid "470aee3c-db22-4a68-bfd5-222619395e69")
+		)
+		(pin "3"
+			(uuid "b42b3a10-278b-49f2-bdc4-442075a1348a")
+		)
+		(pin "2"
+			(uuid "87df8fdd-2d8b-4435-9d66-046a3e8be35e")
+		)
+		(instances
+			(project "Matrice LED"
+				(path "/22181f45-5f3c-4a22-8df0-6f6efcd72a92"
+					(reference "J4")
 					(unit 1)
 				)
 			)
