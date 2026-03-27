@@ -127,7 +127,7 @@
       },
       {
         "name": "Matrice LED.kicad_pcb",
-        "open": true,
+        "open": false,
         "window": {
           "display": 0,
           "maximized": true,
