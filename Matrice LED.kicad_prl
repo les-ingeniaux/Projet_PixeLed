@@ -114,18 +114,6 @@
   "project": {
     "files": [
       {
-        "name": "Matrice LED.kicad_sch",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": false,
-          "pos_x": 1,
-          "pos_y": 1,
-          "size_x": 1918,
-          "size_y": 982
-        }
-      },
-      {
         "name": "Matrice LED.kicad_pcb",
         "open": false,
         "window": {
