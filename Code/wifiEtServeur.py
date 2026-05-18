@@ -1,4 +1,11 @@
-import utilitairesLed
+"""
+Ce module gère la connexion au wifi et le serveur web qui reçoit les commandes de la page web 
+pour les stocker dans des variables accessibles dans main.py
+C'est également dans ce module que se trouve le code de la page web elle-même, que vous pouvez modifier à votre guise pour ajouter
+le nombre de boutons que vous souhaitez, ou pour changer le style de la page.
+"""
+
+import machine
 import network 
 import socket 
 from time import sleep
@@ -101,7 +108,11 @@ Content-Type: text/html\r
 </html>
 """
 
-def connect(ssid,password): 
+
+"""
+Cette fonction se connecte au réseau Wi-Fi avec le ssid et le mot de passe fournis en argument.
+"""
+def connect(ssid,password)->None: 
   mon_reseau_wifi = network.WLAN(network.STA_IF)
   mon_reseau_wifi.active(True)
   mon_reseau_wifi.connect(ssid, password)
@@ -114,7 +125,10 @@ def connect(ssid,password):
   print(f'Connecté sur {ip}')
 
 
-def init():
+"""
+Cette fonction initialise le serveur web et le rend prêt à recevoir des commandes de la page web
+"""
+def init()->None:
     global s
     addr = socket.getaddrinfo('0.0.0.0', 80)[0][-1]
     s = socket.socket()
@@ -123,13 +137,15 @@ def init():
         s.bind(addr)
     except OSError:
         print("Port busy, resetting...")
-        import machine
         machine.reset()
     s.listen(1)
     s.setblocking(False)
     print("Serveur web actif sur le port 80")
 
-def poll():
+"""
+Cette fonction vérifie si des requêtes sont disponibles sur le socket du serveur web : il faut l'appeler régulièrement dans la boucle principale de main.py pour que les commandes de la page web soient prises en compte
+"""
+def poll()->None:
     try:
         cl, addr = s.accept()
     except OSError as e:

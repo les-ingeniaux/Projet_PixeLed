@@ -1,1 +1,5 @@
 /Matrice LED-backups
+.mpy-workbench/tree-paths.json
+.mpy-workbench/config.json
+.mpy-workbench/esp32sync.json
+.gitignore
