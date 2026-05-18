@@ -112,20 +112,7 @@
   },
   "open_jobsets": [],
   "project": {
-    "files": [
-      {
-        "name": "Matrice LED.kicad_pcb",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": -8,
-          "pos_y": -8,
-          "size_x": 1936,
-          "size_y": 1000
-        }
-      }
-    ]
+    "files": []
   },
   "schematic": {
     "selection_filter": {

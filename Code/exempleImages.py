@@ -1,3 +1,4 @@
+# Version complète du code - ne pas donner celle-ci aux élèves en début de projet :-)
 from time import sleep
 
 import wifiEtServeur
