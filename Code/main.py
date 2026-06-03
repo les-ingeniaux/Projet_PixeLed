@@ -18,7 +18,7 @@ utilitairesLed.clear()
 
 
 while True:
-    if state.allumage == 1:
+    if state.allumage == 0:
         utilitairesLed.clear()
     else:
         pass # Ici, votre code !
