@@ -19,7 +19,7 @@ utilitairesLed.clear()
 
 while True:
     if state.allumage == 1:
-        pass
-    else:
         utilitairesLed.clear()
+    else:
+        pass # Ici, votre code !
     wifiEtServeur.poll()
