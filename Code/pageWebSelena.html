@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+    @font-face {
+  font-family: "VCR OSD Mono";
+  src: url("VCR_OSD_MONO.ttf") format("truetype");
+}
+
+
+body {
+  font-family: 'Press Start 2P', cursive;
+  background: linear-gradient(145deg, #3b9af9, #0efa8c);
+  color: #ffffff;
+  text-align: center;
+  margin: 0;
+  padding: 40px;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+.btn {
+  position: relative;
+  overflow: hidden;
+
+  display: inline-block;
+  padding: 18px 30px;
+  margin: 12px;
+  min-width: 160px;
+
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "VCR OSD Mono", monospace;
+  color: white;
+
+  background: rgba(0, 140, 255, 0.25);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 16px;
+
+  cursor: pointer;
+  transition: all 0.2s ease;
+
+  box-shadow:
+    0 8px 20px rgba(0, 102, 255, 0.4),
+    inset 0 1px 1px rgba(255, 255, 255, 0.4);
+}
+
+.btn::before {
+  content: "";
+  position: absolute;
+
+  top: 2px;
+  left: 2px;
+  right: 2px;
+  height: 45%;
+
+  border-radius: 14px;
+
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0.05)
+  );
+
+  pointer-events: none;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  background: rgba(0, 170, 255, 0.35);
+
+  box-shadow:
+    0 12px 30px rgba(0, 140, 255, 0.5),
+    inset 0 1px 1px rgba(255, 255, 255, 0.5);
+}
+
+.btn:active {
+  transform: translateY(2px);
+
+  box-shadow:
+    0 4px 12px rgba(0, 140, 255, 0.3),
+    inset 0 1px 1px rgba(255, 255, 255, 0.3);
+}
+
+.panel {
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+
+  padding: 20px;
+  margin: 20px;
+  display: inline-block;
+
+  box-shadow:
+    0 8px 32px rgba(0, 0, 0, 0.25),
+    inset 0 1px 1px rgba(255, 255, 255, 0.3);
+
+#status {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #38bdf8;
+}
+
+
+.hidden {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+/* Un peu de style pour les pages */
+.page {
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+  background: white;
+}
+
+nav button {
+  padding: 10px;
+  cursor: pointer;
+  background: #eee;
+  border: 1px solid #999;
+}
+     </style>
+         <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+<h1>Centre de commandes du PixeLed</h1>
+
+    <div class="panel">
+        <button class="btn" onclick="setAllumage(0)">PixeLed OFF</button>
+        <button class="btn" onclick="setAllumage(1)">PixeLed ON</button>
+    </div>
+
+    <div class="panel">
+        <button class="btn" onclick="setImage(1)">Menu</button>
+        <button class="btn" onclick="setImage(2)">Image 2</button>
+        <button class="btn" onclick="setImage(3)">Image 3</button>
+        <button class="btn" onclick="setImage(4)">Image 4</button>
+    </div>
+
+    <div class="liquide-verre"></div>
+  </body>
+</html> 
